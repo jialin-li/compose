@@ -271,6 +271,7 @@
         "stop_signal": {"type": "string"},
         "storage_opt": {"type": "object"},
         "tmpfs": {"$ref": "#/definitions/string_or_list"},
+        "tmpfs-size": {"size": "number"},
         "tty": {"type": "boolean"},
         "ulimits": {
           "type": "object",

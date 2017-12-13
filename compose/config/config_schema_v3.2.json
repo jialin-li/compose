@@ -214,6 +214,7 @@
         "stop_grace_period": {"type": "string", "format": "duration"},
         "stop_signal": {"type": "string"},
         "tmpfs": {"$ref": "#/definitions/string_or_list"},
+        "tmpfs-size": {"size": "number"},
         "tty": {"type": "boolean"},
         "ulimits": {
           "type": "object",
